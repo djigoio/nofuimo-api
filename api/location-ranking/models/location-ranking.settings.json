@@ -77,6 +77,10 @@
       "max": "100",
       "min": "0",
       "default": "50"
+    },
+    "location": {
+      "via": "location_ranking",
+      "model": "location"
     }
   }
 }

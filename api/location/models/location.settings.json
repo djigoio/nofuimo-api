@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Name": {
+    "name": {
       "type": "string",
       "unique": true,
       "required": true
@@ -31,6 +31,10 @@
     },
     "address": {
       "type": "string"
+    },
+    "location_ranking": {
+      "via": "location",
+      "model": "location-ranking"
     }
   }
 }
