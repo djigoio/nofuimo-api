@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/location-rankings",
+      "handler": "location-ranking.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/location-rankings/count",
+      "handler": "location-ranking.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/location-rankings/:id",
+      "handler": "location-ranking.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/location-rankings",
+      "handler": "location-ranking.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/location-rankings/:id",
+      "handler": "location-ranking.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/location-rankings/:id",
+      "handler": "location-ranking.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

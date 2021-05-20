@@ -1,0 +1,82 @@
+{
+  "kind": "collectionType",
+  "collectionName": "location_rankings",
+  "info": {
+    "name": "Location Ranking",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fun": {
+      "type": "biginteger",
+      "default": "50",
+      "max": "100",
+      "min": "0"
+    },
+    "multicultural": {
+      "type": "biginteger",
+      "max": "100",
+      "min": "0",
+      "default": "50"
+    },
+    "cost": {
+      "type": "biginteger",
+      "default": "50",
+      "max": "100",
+      "min": "0"
+    },
+    "english": {
+      "type": "biginteger",
+      "default": "50",
+      "max": "100",
+      "min": "0"
+    },
+    "internet": {
+      "type": "biginteger",
+      "default": "50",
+      "max": "100",
+      "min": "0"
+    },
+    "to_work": {
+      "type": "biginteger",
+      "max": "100",
+      "min": "0",
+      "default": "50"
+    },
+    "peak_time": {
+      "type": "biginteger",
+      "max": "100",
+      "min": "0",
+      "default": "50"
+    },
+    "likes": {
+      "type": "biginteger",
+      "default": "0",
+      "min": "0"
+    },
+    "racial_tolerance": {
+      "type": "biginteger",
+      "default": "50",
+      "max": "100",
+      "min": "0"
+    },
+    "female_friendly": {
+      "type": "biginteger",
+      "required": true,
+      "default": "50",
+      "min": "0",
+      "max": "100"
+    },
+    "lgbtq_friendly": {
+      "type": "biginteger",
+      "max": "100",
+      "min": "0",
+      "default": "50"
+    }
+  }
+}
